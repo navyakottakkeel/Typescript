@@ -29,8 +29,10 @@ class Boxes {
 const strboxes = new Boxes('Welcome');
 console.log(strboxes.value);
 ////////////////////////////////////////////////
+//// reverse an array ///////////
 const arr = [4, 8, 3, 7, 6];
 function reverse(arr) {
     return arr.reverse();
 }
 console.log(reverse(arr));
+////////////////////////////////////////////////////
